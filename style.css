@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.app {
+    display: flex;
+    flex-direction: column;
+    padding: 4.5rem 2.5rem;
+    background-color: #edefee;
+}
+
+
+.header__wrapper {
+    display: flex;
+    margin-bottom: 32px;
+    align-items: center;
+    justify-content: center;
+}
+.header__wrapper h1 {
+    color: #495e57;
+    font-size: 64px;
+    margin-left: 25px;
+}
+
+.nav__container {
+    background-color: #333333;
+    border-radius: 14px;
+}
+
+.nav__bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 10px;
+    margin-bottom: 32px;
+}
+.nav__bar li {
+    list-style: none;
+}
+.nav__bar li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px ;
+
+}
+
+.promo__container {
+    background-image: url('https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80');
+    object-fit: contain;
+    padding-right: 25%;
+    border-radius: 25px;
+     background-attachment: fixed;
+     background-position: center;
+}
+
+.promo__container h1 {
+    color: #000;
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+
+
+.promo__padding {
+    padding: 2rem;
+}
+.promo__container p {
+    color: #000;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 1px;
+} 
+
+.grid__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .75rem;
+    margin-top: 25px;
+    margin-bottom: 32px;
+}
+
+.container__box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    background-color: #f4e5d6;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+.container__box h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.container__box img {
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.grid__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.links {
+    color: blue;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.copyright {
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+}
+
